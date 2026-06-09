@@ -9,4 +9,9 @@ Initial steps in terms of cleaning, understanding dimensions etc:
 - subcorpus_cleaning.R: Sets thresholds for author inclusion and creates a directory only with authors that match the criteria
 - train_test_split.R: Creates a train and test directory with 70% training data per author
 
-
+Second analysis step:
+- 15k_cleaning.R: Sets the threshold for each author to have at least 15,000 words of training data
+- lemma_and_POS.R: Lemmatises and POS-tags each chunk in the training data
+- pos_ngrams.R: Gets the POS 1-10-grams for each chunk and each author (raw and relative)
+- check_ngrams.R: Checks output is reasonable
+- pos_profiles.R: Gives a profile of the top POS-grams for each author
