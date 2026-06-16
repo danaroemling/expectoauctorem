@@ -15,3 +15,7 @@ Second analysis step:
 - pos_ngrams.R: Gets the POS 1-10-grams for each chunk and each author (raw and relative)
 - check_ngrams.R: Checks output is reasonable
 - pos_profiles.R: Gives a profile of the top POS-grams for each author
+- cliffs_delta.R: Calculates Cliff's Delta (one-vs-rest pairwise, capped at 50 chunks per author for compute reasons)
+- looking_at_cliffs.R: Analysis helper with visualisation
+- MACD.R: Aggregates the temp files from cliffs_delta.R
+- author_consistency.R: for each feature, measured how consistent an author's usage of that n-gram is across their own chunks
