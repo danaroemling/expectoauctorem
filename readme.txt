@@ -21,3 +21,4 @@ Second analysis step:
 - looking_at_cliffs.R: Analysis helper with visualisation
 - MACD.R: Aggregates the temp files from cliffs_delta.R
 - author_consistency.R: for each feature, measured how consistent an author's usage of that n-gram is across their own chunks
+- filtered_feature_list.R: gets the features that are reliable AA features (stable, frequent and with discriminatory power)
