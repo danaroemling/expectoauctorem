@@ -12,6 +12,8 @@ Initial steps in terms of cleaning, understanding dimensions etc:
 Second analysis step:
 - 15k_cleaning.R: Sets the threshold for each author to have at least 15,000 words of training data
 - lemma_and_POS.R: Lemmatises and POS-tags each chunk in the training data
+- checking_tagging.R: Does what is on the tin; export seeded sample to inspect
+- how_are_spells_tagged.R: Using known spells extracts seeded sample to inspect
 - pos_ngrams.R: Gets the POS 1-10-grams for each chunk and each author (raw and relative)
 - check_ngrams.R: Checks output is reasonable
 - pos_profiles.R: Gives a profile of the top POS-grams for each author
