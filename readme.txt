@@ -22,3 +22,4 @@ Second analysis step:
 - MACD.R: Aggregates the temp files from cliffs_delta.R
 - author_consistency.R: for each feature, measured how consistent an author's usage of that n-gram is across their own chunks
 - filtered_feature_list.R: gets the features that are reliable AA features (stable, frequent and with discriminatory power)
+-- Files with "_no_punct" do the same thing but skip over PUNCT POS tags so we can evaluate the difference with and without PUNCT for classification
